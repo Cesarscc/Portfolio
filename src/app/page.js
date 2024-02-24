@@ -38,7 +38,7 @@ export default function Home() {
       <div className={`w-full bg-slate-800`}>
         <Header />
         <main className="px-4">
-          <section className="ml-20 md:ml-28 md:max-w-[800px] lg:max-w-xl lg:ml-48 mb-20 mt-32">
+          <section className="ml-10 md:ml-28 md:max-w-[800px] lg:max-w-xl lg:ml-48 mb-20 mt-32">
             <div className="flex gap-10">
               <div>
                 <Image
@@ -96,7 +96,7 @@ export default function Home() {
             </div>
           </section>
           <section
-            className="ml-20 md:ml-28 lg:ml-48 max-w-4xl mb-20"
+            className="ml-10 md:ml-28 lg:ml-48 max-w-4xl mb-20"
             id="experiencia"
           >
             <div className="flex gap-10">
@@ -161,7 +161,7 @@ export default function Home() {
             </div>
           </section>
           <section
-            className="ml-20 md:ml-28 lg:ml-48 max-w-4xl mb-20"
+            className="ml-10 md:ml-28 lg:ml-48 max-w-4xl mb-20"
             id="proyectos"
           >
             <h2 className="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-white">
@@ -630,7 +630,7 @@ export default function Home() {
                     Imcetron
                   </h3>
                   <div className="flex flex-wrap mt-2">
-                    <ul className="md:grid md:grid-cols-2 lg:flex lg:flex-row mb-2 gap-x-2">
+                    <ul className="grid grid-cols-2 lg:flex lg:flex-row mb-2 gap-x-2">
                       <li className="flex items-center">
                         <NextJsIcon />
                         <strong className="text-white ml-1 text-sm">
@@ -822,7 +822,7 @@ export default function Home() {
               </article>
             </div>
           </section>
-          <section className="ml-20 md:ml-28 lg:ml-48 max-w-4xl" id="sobre-mi">
+          <section className="ml-10 md:ml-28 lg:ml-48 max-w-4xl" id="sobre-mi">
             <h2 className="flex items-center mb-6 text-3xl font-semibold gap-x-8 text-black/80 dark:text-white">
               <ProfileCheck className="size-8" />
               Sobre mí

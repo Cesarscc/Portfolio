@@ -26,8 +26,8 @@ const navItems = [
 const Header = () => {
   return (
     <header className="w-full flex justify-center pt-5">
-      <nav className="h-10 bg-zinc-600  max-w-[550px] w-full rounded-full fixed z-50">
-        <ul className="flex justify-center gap-10 pt-2">
+      <nav className="h-10 bg-zinc-600 max-w-[550px] w-full rounded-full fixed z-50">
+        <ul className="flex justify-center gap-5 sm:gap-10 pt-2">
           {navItems.map((navItem) => (
             <li
               key={navItem.title}
