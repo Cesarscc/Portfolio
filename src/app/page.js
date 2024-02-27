@@ -30,7 +30,9 @@ import ImcetronPage from "/public/images/ImcetronPage.png";
 import GifSearch from "/public/images/GifSearch.png";
 import BeeFrontend from "/public/images/BeeFrontend.png";
 import BatatabitResponsive from "/public/images/BatatabitResponsive.png";
+import CrudDjango from "/public/images/nextjs-djangorest.png";
 import ImageProfile from "/public/images/ImageProfile.png";
+import DjangoIcon from "@/components/icons/DjangoIcon";
 
 export default function Home() {
   return (
@@ -199,8 +201,8 @@ export default function Home() {
                     </ul>
 
                     <div className="mt-2 text-gray-700 dark:text-gray-400">
-                      Pequeño proyecto que muestra el cambio de estados de las
-                      tarjetas de twitter.
+                      Proyecto que muestra el cambio de estados de las tarjetas
+                      de twitter, usando Hooks de React.
                     </div>
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
@@ -247,7 +249,8 @@ export default function Home() {
                     </ul>
 
                     <div className="mt-2 text-gray-700 dark:text-gray-400">
-                      Pequeño proyecto que simula el juego de 3 en raya.
+                      Proyecto que simula el juego de 3 en raya, con la
+                      finalidad de usar Hooks de React.
                     </div>
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
@@ -294,9 +297,9 @@ export default function Home() {
                     </ul>
 
                     <div className="mt-2 text-gray-700 dark:text-gray-400">
-                      Pequeño proyecto que en un estado inicial un (&bull;) no
-                      te sigue, y al activar la opción de seguir puntero el
-                      (&bull;) se posiciona siempre en tu puntero.
+                      Proyecto para manejar estados, que en un estado inicial un
+                      (&bull;) no te sigue, y al activar la opción de seguir
+                      puntero el (&bull;) se posiciona siempre en tu puntero.
                     </div>
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
@@ -343,10 +346,10 @@ export default function Home() {
                     </ul>
 
                     <div className="mt-2 text-gray-700 dark:text-gray-400">
-                      Pequeña prueba técnica, donde se requería consumir el Api
-                      de un generador de imágenes de gatos con las 3 primeras
-                      palabras que genere una imagen con un texto con esas
-                      mismas 3 palabras.
+                      Prueba técnica, donde se requería consumir el Api de un
+                      generador de imágenes de gatos con las 3 primeras palabras
+                      que genere una imagen con un texto con esas mismas 3
+                      palabras.
                     </div>
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
@@ -809,6 +812,65 @@ export default function Home() {
                       <a
                         target="_blank"
                         href={"https://cesarscc.github.io/Mobile-Proyect/"}
+                        className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
+                      >
+                        <p>
+                          <Preview />
+                        </p>
+                        <p className="text-gray-400">Preview</p>
+                      </a>
+                    </footer>
+                  </div>
+                </div>
+              </article>
+              <article className="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+                <div className="w-full md:w-1/2">
+                  <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+                    <Image
+                      alt="Recién llegado vs 5 años en Nueva Zelanda"
+                      className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
+                      loading="lazy"
+                      width={900}
+                      height={800}
+                      src={CrudDjango}
+                    />
+                  </div>
+                </div>
+                <div className="w-full md:w-1/2 md:max-w-lg">
+                  <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-100">
+                    CRUD Tareas
+                  </h3>
+                  <div className="flex flex-wrap mt-2">
+                    <ul className="flex flex-row mb-2 gap-x-2">
+                      <li className="flex items-center">
+                        <NextJsIcon />
+                        <strong className="text-white text-sm ml-1">
+                          Next Js
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <DjangoIcon />
+                        <strong className="text-white text-sm ml-1">
+                          Django
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <TailwindIcon />
+                        <strong className="text-white text-sm ml-1">
+                          TailwindCss
+                        </strong>
+                      </li>
+                    </ul>
+
+                    <div className="mt-2 text-gray-700 dark:text-gray-400">
+                      Aplicativo web de tareas, con la finalidad de poder hacer
+                      un CRUD usando Django para el Backend y NextJs con
+                      TailwindCss para el frontend
+                    </div>
+                    <footer className="flex items-end justify-start mt-4 gap-x-4">
+                      <a
+                        target="_blank"
+                        href={"https://nextjs-djangorest.netlify.app/"}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
