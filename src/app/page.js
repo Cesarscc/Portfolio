@@ -35,6 +35,7 @@ import CrudDjango from "/public/images/nextjs-djangorest.png";
 import PasarelaStripe from "/public/images/PasarelaStripe.png";
 import ExamSimulator from "/public/images/ExamSimulator.png";
 import EditCasePhone from "/public/images/EditCasePhone.png";
+import AdrauniPage from "/public/images/AdrauniPage.png";
 import ImageProfile from "/public/images/ImageProfile.png";
 import StripeIcon from "@/components/icons/StripeIcon";
 
@@ -179,7 +180,7 @@ export default function Home() {
                 <div className="w-full md:w-1/2">
                   <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
                     <Image
-                      alt="Recién llegado vs 5 años en Nueva Zelanda"
+                      alt="Card Twitter"
                       className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
                       loading="lazy"
                       width={900}
@@ -275,7 +276,7 @@ export default function Home() {
                 <div className="w-full md:w-1/2">
                   <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
                     <Image
-                      alt="Recién llegado vs 5 años en Nueva Zelanda"
+                      alt="Mouse Follower"
                       className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
                       loading="lazy"
                       width={900}
@@ -324,7 +325,7 @@ export default function Home() {
                 <div className="w-full md:w-1/2">
                   <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
                     <Image
-                      alt="Recién llegado vs 5 años en Nueva Zelanda"
+                      alt="Prueba Técnica"
                       className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
                       loading="lazy"
                       width={900}
@@ -374,7 +375,7 @@ export default function Home() {
                 <div className="w-full md:w-1/2">
                   <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
                     <Image
-                      alt="Recién llegado vs 5 años en Nueva Zelanda"
+                      alt="Buscador de Películas"
                       className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
                       loading="lazy"
                       width={900}
@@ -424,7 +425,7 @@ export default function Home() {
                 <div className="w-full md:w-1/2">
                   <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
                     <Image
-                      alt="Recién llegado vs 5 años en Nueva Zelanda"
+                      alt="Carrito de Compras"
                       className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
                       loading="lazy"
                       width={900}
@@ -473,7 +474,7 @@ export default function Home() {
                 <div className="w-full md:w-1/2">
                   <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
                     <Image
-                      alt="Recién llegado vs 5 años en Nueva Zelanda"
+                      alt="Clone Google Translate"
                       className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
                       loading="lazy"
                       width={900}
@@ -522,7 +523,7 @@ export default function Home() {
                 <div className="w-full md:w-1/2">
                   <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
                     <Image
-                      alt="Recién llegado vs 5 años en Nueva Zelanda"
+                      alt="Crud con REDUX Toolkit"
                       className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
                       loading="lazy"
                       width={900}
@@ -575,7 +576,7 @@ export default function Home() {
                 <div className="w-full md:w-1/2">
                   <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
                     <Image
-                      alt="Recién llegado vs 5 años en Nueva Zelanda"
+                      alt="Prueba Técnica"
                       className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
                       loading="lazy"
                       width={900}
@@ -623,7 +624,7 @@ export default function Home() {
                 <div className="w-full md:w-1/2">
                   <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
                     <Image
-                      alt="Recién llegado vs 5 años en Nueva Zelanda"
+                      alt="Web Imcetron"
                       className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
                       loading="lazy"
                       width={900}
@@ -685,7 +686,7 @@ export default function Home() {
                 <div className="w-full md:w-1/2">
                   <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
                     <Image
-                      alt="Recién llegado vs 5 años en Nueva Zelanda"
+                      alt="Buscador de Gift"
                       className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
                       loading="lazy"
                       width={900}
@@ -736,7 +737,7 @@ export default function Home() {
                 <div className="w-full md:w-1/2">
                   <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
                     <Image
-                      alt="Recién llegado vs 5 años en Nueva Zelanda"
+                      alt="Web Responsive"
                       className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
                       loading="lazy"
                       width={900}
@@ -784,7 +785,7 @@ export default function Home() {
                 <div className="w-full md:w-1/2">
                   <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
                     <Image
-                      alt="Recién llegado vs 5 años en Nueva Zelanda"
+                      alt="Responsive Web"
                       className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
                       loading="lazy"
                       width={900}
@@ -831,7 +832,7 @@ export default function Home() {
                 <div className="w-full md:w-1/2">
                   <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
                     <Image
-                      alt="Recién llegado vs 5 años en Nueva Zelanda"
+                      alt="CRUD con Django"
                       className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
                       loading="lazy"
                       width={900}
@@ -890,7 +891,7 @@ export default function Home() {
                 <div className="w-full md:w-1/2">
                   <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
                     <Image
-                      alt="Recién llegado vs 5 años en Nueva Zelanda"
+                      alt="Pasarela de pagos"
                       className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
                       loading="lazy"
                       width={900}
@@ -1009,7 +1010,7 @@ export default function Home() {
                 <div className="w-full md:w-1/2">
                   <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
                     <Image
-                      alt="Recién llegado vs 5 años en Nueva Zelanda"
+                      alt="App web for case phone"
                       className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
                       loading="lazy"
                       width={900}
@@ -1054,6 +1055,72 @@ export default function Home() {
                       <a
                         target="_blank"
                         href={"https://edit-case-phone.netlify.app/"}
+                        className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
+                      >
+                        <p>
+                          <Preview />
+                        </p>
+                        <p className="text-gray-400">Preview</p>
+                      </a>
+                    </footer>
+                  </div>
+                </div>
+              </article>
+              <article className="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+                <div className="w-full md:w-1/2">
+                  <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+                    <Image
+                      alt="Adrauni page"
+                      className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
+                      loading="lazy"
+                      width={900}
+                      height={800}
+                      src={AdrauniPage}
+                    />
+                  </div>
+                </div>
+                <div className="w-full md:w-1/2 md:max-w-lg">
+                  <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-100">
+                    Adrauni
+                  </h3>
+                  <div className="flex flex-wrap mt-2">
+                    <ul className="grid grid-cols-2 lg:flex lg:flex-row mb-2 gap-x-2">
+                      <li className="flex items-center">
+                        <NextJsIcon />
+                        <strong className="text-white ml-1 text-sm">
+                          Next Js
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <TailwindIcon />
+                        <strong className="text-white text-sm">
+                          Tailwind CSS
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <PrismicIcon />
+                        <strong className="text-white ml-1 text-sm">
+                          Prismic CMS
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <FigmaIcon />
+                        <strong className="text-white text-sm">Figma</strong>
+                      </li>
+                    </ul>
+
+                    <div className="mt-2 text-gray-700 dark:text-gray-400">
+                      Desarrollo de una página web para la Agrupación por la
+                      Defensa y Respeto hacia los Animales de la UNI (ADRAUNI).
+                      Pueden poner una lista de eventos que harán en tiempo
+                      real, pueden poner los casos que hay por cada rescatista,
+                      pueden poner los perritos y gatitos en adopción con toda
+                      su información.
+                    </div>
+                    <footer className="flex items-end justify-start mt-4 gap-x-4">
+                      <a
+                        target="_blank"
+                        href={"https://adrauni.pet/"}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
