@@ -1031,6 +1031,12 @@ export default function Home() {
                         </strong>
                       </li>
                       <li className="flex items-center">
+                        <Redux />
+                        <strong className="text-white text-sm">
+                          Redux Toolkit
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
                         <TailwindIcon />
                         <strong className="text-white text-sm ml-1">
                           TailwindCss
