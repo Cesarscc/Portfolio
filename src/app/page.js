@@ -1,6 +1,5 @@
 "use client";
 import Header from "@/components/Header";
-import { useState, useEffect } from "react";
 import Image from "next/image";
 import Mail from "@/components/icons/Mail";
 import Linkedin from "@/components/icons/Linkedin";
@@ -36,8 +35,13 @@ import PasarelaStripe from "/public/images/PasarelaStripe.png";
 import ExamSimulator from "/public/images/ExamSimulator.png";
 import EditCasePhone from "/public/images/EditCasePhone.png";
 import AdrauniPage from "/public/images/AdrauniPage.png";
+import JsQuizzGame from "/public/images/JsQuizzGame.png";
+
+import ZustandIcon from "/public/images/ZustandIcono.png";
 import ImageProfile from "/public/images/ImageProfile.png";
 import StripeIcon from "@/components/icons/StripeIcon";
+import TypeScript from "@/components/icons/TypeScript";
+import LogoMaterialUi from "@/components/icons/LogoMaterialUi";
 
 export default function Home() {
   return (
@@ -1121,6 +1125,82 @@ export default function Home() {
                       <a
                         target="_blank"
                         href={"https://adrauni.pet/"}
+                        className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
+                      >
+                        <p>
+                          <Preview />
+                        </p>
+                        <p className="text-gray-400">Preview</p>
+                      </a>
+                    </footer>
+                  </div>
+                </div>
+              </article>
+
+              <article className="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+                <div className="w-full md:w-1/2">
+                  <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+                    <Image
+                      alt="App web for case phone"
+                      className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
+                      loading="lazy"
+                      width={900}
+                      height={800}
+                      src={JsQuizzGame}
+                    />
+                  </div>
+                </div>
+                <div className="w-full md:w-1/2 md:max-w-lg">
+                  <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-100">
+                    JavaScript Quizz Game
+                  </h3>
+                  <div className="flex flex-wrap mt-2">
+                    <ul className="grid grid-cols-2 lg:flex lg:flex-row mb-2 gap-x-2">
+                      <li className="flex items-center">
+                        <ReactIcon />
+                        <strong className="text-white text-sm ml-1">
+                          React Js
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <TypeScript />
+                        <strong className="text-white text-sm">
+                          TypeScript
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <div>
+                          <Image
+                            alt="Zustan Icon"
+                            loading="lazy"
+                            width={50}
+                            height={50}
+                            src={ZustandIcon}
+                          />
+                        </div>
+                        <strong className="text-white text-sm ml-1">
+                          Zustand
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <LogoMaterialUi />
+                        <strong className="text-white text-sm ml-1">
+                          Material Ui
+                        </strong>
+                      </li>
+                    </ul>
+
+                    <div className="mt-2 text-gray-700 dark:text-gray-400">
+                      Aplicativo web que lanza una serie de preguntas sobre
+                      JavaScript para que puedan ser respondidas por los
+                      usuarios, indicando si la respuesta es correcta o
+                      incorrecta además de un historial de como va con las
+                      preguntas (buenas, incorrectas y no respondidas)
+                    </div>
+                    <footer className="flex items-end justify-start mt-4 gap-x-4">
+                      <a
+                        target="_blank"
+                        href={"https://cesarscc-js-quizz-game.netlify.app/"}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
