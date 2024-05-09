@@ -40,6 +40,7 @@ import RecipesPeruvians from "/public/images/RecipesPeruvians.png";
 import ZustandIcon from "/public/images/ZustandIcono.png";
 import PruebaFull from "/public/images/PruebaFull.png";
 import RandomPhrases from "/public/images/RandomPhrases.png";
+import EditorMarkdown from "/public/images/EditorMarkdown.png";
 import ImageProfile from "/public/images/ImageProfile.png";
 import StripeIcon from "@/components/icons/StripeIcon";
 import TypeScript from "@/components/icons/TypeScript";
@@ -1397,6 +1398,65 @@ export default function Home() {
                       <a
                         target="_blank"
                         href={"https://cesarscc-random-phrases.netlify.app/"}
+                        className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
+                      >
+                        <p>
+                          <Preview />
+                        </p>
+                        <p className="text-gray-400">Preview</p>
+                      </a>
+                    </footer>
+                  </div>
+                </div>
+              </article>
+              <article className="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+                <div className="w-full md:w-1/2">
+                  <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+                    <Image
+                      alt="Editor de Markdown"
+                      className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
+                      loading="lazy"
+                      width={900}
+                      height={800}
+                      src={EditorMarkdown}
+                    />
+                  </div>
+                </div>
+                <div className="w-full md:w-1/2 md:max-w-lg">
+                  <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-100">
+                    Previsualizador de <strong>Markdon</strong>
+                  </h3>
+                  <div className="flex flex-wrap mt-2">
+                    <ul className="flex flex-row mb-2 gap-x-2">
+                      <li className="flex items-center">
+                        <ReactIcon />
+                        <strong className="text-white ml-1 text-sm">
+                          React Js
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <SassIcon />
+                      </li>
+                      <li className="flex items-center">
+                        <CssIcon />
+                        <strong className="text-white text-sm">CSS</strong>
+                      </li>
+                    </ul>
+
+                    <div className="mt-2 text-gray-700 dark:text-gray-400">
+                      Aplicativo web que puedes escribir la sintaxis Markdown y
+                      este mismo te hará una previsualización de como se vería.
+                      <br />
+                      <small className="font-sans">
+                        Preprocesador de hoja de estilos, responsive,
+                        funcionalidad para el editor, funcionalidad para la
+                        previsualización
+                      </small>
+                    </div>
+                    <footer className="flex items-end justify-start mt-4 gap-x-4">
+                      <a
+                        target="_blank"
+                        href={"https://cesarscc-editor-markdown.netlify.app/"}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
