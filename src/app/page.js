@@ -44,13 +44,14 @@ import EditorMarkdown from "/public/images/EditorMarkdown.png";
 import DrumMachine from "/public/images/DrumMachine.png";
 import CalculadoraJs from "/public/images/CalculadoraJs.png";
 import Clock25 from "/public/images/Clock25.png";
-import ImageProfile from "/public/images/ImageProfile.png";
+import RealState from "/public/images/RealState.png";
 import StripeIcon from "@/components/icons/StripeIcon";
 import TypeScript from "@/components/icons/TypeScript";
 import LogoMaterialUi from "@/components/icons/LogoMaterialUi";
 import NodeIcon from "@/components/icons/NodeIcon";
 import GithubIcon from "@/components/icons/GithubIcon";
 import SassIcon from "@/components/icons/SassIcon";
+import Leaflet from "@/components/icons/Leaflet";
 
 export default function Home() {
   return (
@@ -1637,6 +1638,71 @@ export default function Home() {
                       <a
                         target="_blank"
                         href={"https://cesarscc-clock-25-5.netlify.app/"}
+                        className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
+                      >
+                        <p>
+                          <Preview />
+                        </p>
+                        <p className="text-gray-400">Preview</p>
+                      </a>
+                    </footer>
+                  </div>
+                </div>
+              </article>
+              <article className="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+                <div className="w-full md:w-1/2">
+                  <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+                    <Image
+                      alt="Clock 25 5"
+                      className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
+                      loading="lazy"
+                      width={900}
+                      height={800}
+                      src={RealState}
+                    />
+                  </div>
+                </div>
+                <div className="w-full md:w-1/2 md:max-w-lg">
+                  <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-100">
+                    Inmobiliaria Bienes Raíces
+                  </h3>
+                  <div className="flex flex-wrap mt-2">
+                    <ul className="grid grid-cols-2 lg:flex lg:flex-row mb-2 gap-x-2">
+                      <li className="flex items-center">
+                        <ReactIcon />
+                        <strong className="text-white ml-1 text-sm">
+                          React Js
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <TailwindIcon />
+                        <strong className="text-white text-sm">
+                          Tailwind CSS
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <NextJsIcon />
+                        <strong className="text-white text-sm">Next Js</strong>
+                      </li>
+                      <li className="flex items-center">
+                        <Leaflet />
+                      </li>
+                    </ul>
+
+                    <div className="mt-2 text-gray-700 dark:text-gray-400">
+                      Aplicativo web que trata de una vista de alguna
+                      inmobiliara que tiene propiedades en ventas para el
+                      público en general, pueden inspeccionar cada lugar, y
+                      tamién pueden ver las ubicaciones de cada propiedad,
+                      además tienen un carrusel de imágenes para que puedan ver
+                      a detalle, cuando pulsan en alguna ubicación del mapa les
+                      dará una vista previa del lugar, además de un botón para
+                      redirigirlos a ver la propiedad a detalle.
+                    </div>
+                    <footer className="flex items-end justify-start mt-4 gap-x-4">
+                      <a
+                        target="_blank"
+                        href={"https://cesarscc-real-state.netlify.app/"}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
