@@ -52,6 +52,10 @@ import NodeIcon from "@/components/icons/NodeIcon";
 import GithubIcon from "@/components/icons/GithubIcon";
 import SassIcon from "@/components/icons/SassIcon";
 import Leaflet from "@/components/icons/Leaflet";
+import VideoPlayer from "@/components/video/VideoPlayer";
+import Paypal from "@/components/icons/Paypal";
+import NextAuthIcon from "@/components/icons/NextAuthIcon";
+import MySqlIcon from "@/components/icons/MySqlIcon";
 
 export default function Home() {
   return (
@@ -1653,7 +1657,7 @@ export default function Home() {
                 <div className="w-full md:w-1/2">
                   <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
                     <Image
-                      alt="Clock 25 5"
+                      alt="Real State"
                       className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
                       loading="lazy"
                       width={900}
@@ -1711,6 +1715,89 @@ export default function Home() {
                         <p className="text-gray-400">Preview</p>
                       </a>
                     </footer>
+                  </div>
+                </div>
+              </article>
+              <article className="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+                <div className="w-full md:w-1/2">
+                  <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50 mt-12">
+                    <div className="h-[45dvh] sm:h-[400px] w-full">
+                      <VideoPlayer />
+                    </div>
+                  </div>
+                </div>
+                <div className="w-full md:w-1/2 md:max-w-lg">
+                  <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-100">
+                    Tu Tienda PE
+                  </h3>
+                  <div className="flex flex-wrap mt-2">
+                    <ul className="grid grid-cols-3  mb-2 gap-x-2">
+                      <li className="flex items-center">
+                        <ReactIcon />
+                        <strong className="text-white ml-1 text-sm">
+                          React Js
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <div>
+                          <Image
+                            alt="Zustan Icon"
+                            loading="lazy"
+                            width={50}
+                            height={50}
+                            src={ZustandIcon}
+                          />
+                        </div>
+                        <strong className="text-white text-sm ml-1">
+                          Zustand
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <TailwindIcon />
+                        <strong className="text-white text-sm">
+                          Tailwind CSS
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <NextJsIcon />
+                        <strong className="text-white text-sm">Next Js</strong>
+                      </li>
+                      <li className="flex items-center">
+                        <Leaflet />
+                      </li>
+                      <li className="flex items-center">
+                        <Paypal />
+                        <strong className="text-white text-sm ml-1">
+                          Paypal
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <StripeIcon />
+                        <strong className="text-white text-sm ml-1">
+                          Stripe
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <NextAuthIcon />
+                        <strong className="text-white text-sm ml-1">
+                          Next Auth
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <MySqlIcon />
+                      </li>
+                    </ul>
+                    <div className="mt-2 text-gray-700 dark:text-gray-400">
+                      Aplicativo Web para una tienda en línea, pueden registrase
+                      mediante GitHub o Google, o en todo caso mediante el
+                      formulario de registro de la misma página, una vez
+                      registrado se guarda su usuario (encriptado) en la base de
+                      datos de MySql, y pueden loguearse en el formulario de
+                      inicio. Pueden ver la página de inicio,la ubicación de la
+                      tienda, los productos, y guardarlos en su carrito de
+                      compras para luego pagarlos mediante Stripe o Paypal y
+                      finalmente se registra en su historial de compras.
+                    </div>
                   </div>
                 </div>
               </article>
