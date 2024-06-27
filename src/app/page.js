@@ -47,6 +47,7 @@ import Clock25 from "/public/images/Clock25.png";
 import RealState from "/public/images/RealState.png";
 import DamasGame from "/public/images/DamasGame.png";
 import TestDeveloper from "/public/images/TestDeveloper.png";
+import PruebaReactDeveloper from "/public/images/PruebaReactDeveloper.png";
 import StripeIcon from "@/components/icons/StripeIcon";
 import TypeScript from "@/components/icons/TypeScript";
 import LogoMaterialUi from "@/components/icons/LogoMaterialUi";
@@ -1919,6 +1920,72 @@ export default function Home() {
                       <a
                         target="_blank"
                         href={"https://technical-test-web.netlify.app/"}
+                        className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
+                      >
+                        <p>
+                          <Preview />
+                        </p>
+                        <p className="text-gray-400">Preview</p>
+                      </a>
+                    </footer>
+                  </div>
+                </div>
+              </article>
+              <article className="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+                <div className="w-full md:w-1/2">
+                  <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+                    <Image
+                      alt="Prueba React Developer"
+                      className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
+                      loading="lazy"
+                      width={900}
+                      height={800}
+                      src={PruebaReactDeveloper}
+                    />
+                  </div>
+                </div>
+                <div className="w-full md:w-1/2 md:max-w-lg">
+                  <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-100">
+                    Prueba React Developer
+                  </h3>
+                  <div className="flex flex-wrap mt-2">
+                    <ul className="grid grid-cols-2 mb-2 gap-x-2">
+                      <li className="flex items-center">
+                        <ReactIcon />
+                        <strong className="text-white ml-1 text-sm">
+                          React Js
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <TypeScript />
+                        <strong className="text-white text-sm">
+                          TypeScript
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <TailwindIcon />
+                        <strong className="text-white text-sm">
+                          TailwindCss
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <Redux />
+                        <strong className="text-white text-sm">
+                          Redux Toolkit
+                        </strong>
+                      </li>
+                    </ul>
+
+                    <div className="mt-2 text-gray-700 dark:text-gray-400">
+                      Aplicativo web que te brinda 2 zonas a buscar series o
+                      movies, dentro de cada zona puedes filtrar por la cantidad
+                      de elementos que deseas ver, puedes también buscarlo por
+                      url, tienes un paginador para mostrar más elementos.
+                    </div>
+                    <footer className="flex items-end justify-start mt-4 gap-x-4">
+                      <a
+                        target="_blank"
+                        href={"https://prueba-react-developer.netlify.app/"}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
