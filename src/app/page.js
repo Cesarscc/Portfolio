@@ -1,64 +1,67 @@
-"use client";
-import Header from "@/components/Header";
-import Image from "next/image";
-import Mail from "@/components/icons/Mail";
-import Linkedin from "@/components/icons/Linkedin";
-import Maletin from "@/components/icons/Maletin";
-import Code from "@/components/icons/Code";
-import ReactIcon from "@/components/icons/ReactIcon";
-import CssIcon from "@/components/icons/CssIcon";
-import NextJsIcon from "@/components/icons/NextJsIcon";
-import TailwindIcon from "@/components/icons/TailwindIcon";
-import PrismicIcon from "@/components/icons/PrismicIcon";
-import FigmaIcon from "@/components/icons/FigmaIcon";
-import NetlifyIcon from "@/components/icons/NetlifyIcon";
-import DjangoIcon from "@/components/icons/DjangoIcon";
-import Preview from "@/components/icons/Preview";
-import Redux from "@/components/icons/Redux";
-import HtmlIcon from "@/components/icons/HtmlIcon";
-import ProfileCheck from "@/components/icons/ProfileCheck";
-import TwitterCard from "/public/images/twitterCard.png";
-import TicTacToe from "/public/images/TicTacToe.png";
-import MouseFollower from "/public/images/MouseFollower.png";
-import PruebaTecnica from "/public/images/PruebaTecnica.png";
-import BuscadorPeliculas from "/public/images/BuscadorPeliculas.png";
-import ShoppingCart from "/public/images/ShoppingCart.png";
-import CloneGoogleTranslate from "/public/images/CloneGoogleTranslate.png";
-import CrudRedux from "/public/images/CrudRedux.png";
-import PruebaTecnicaEmpresa from "/public/images/PruebaTecnicaEmpresa.png";
-import ImcetronPage from "/public/images/ImcetronPage.png";
-import GifSearch from "/public/images/GifSearch.png";
-import BeeFrontend from "/public/images/BeeFrontend.png";
-import BatatabitResponsive from "/public/images/BatatabitResponsive.png";
-import CrudDjango from "/public/images/nextjs-djangorest.png";
-import PasarelaStripe from "/public/images/PasarelaStripe.png";
-import ExamSimulator from "/public/images/ExamSimulator.png";
-import EditCasePhone from "/public/images/EditCasePhone.png";
-import AdrauniPage from "/public/images/AdrauniPage.png";
-import JsQuizzGame from "/public/images/JsQuizzGame.png";
-import RecipesPeruvians from "/public/images/RecipesPeruvians.png";
-import ZustandIcon from "/public/images/ZustandIcono.png";
-import PruebaFull from "/public/images/PruebaFull.png";
-import RandomPhrases from "/public/images/RandomPhrases.png";
-import EditorMarkdown from "/public/images/EditorMarkdown.png";
-import DrumMachine from "/public/images/DrumMachine.png";
-import CalculadoraJs from "/public/images/CalculadoraJs.png";
-import Clock25 from "/public/images/Clock25.png";
-import RealState from "/public/images/RealState.png";
-import DamasGame from "/public/images/DamasGame.png";
-import TestDeveloper from "/public/images/TestDeveloper.png";
-import PruebaReactDeveloper from "/public/images/PruebaReactDeveloper.png";
-import StripeIcon from "@/components/icons/StripeIcon";
-import TypeScript from "@/components/icons/TypeScript";
-import LogoMaterialUi from "@/components/icons/LogoMaterialUi";
-import NodeIcon from "@/components/icons/NodeIcon";
-import GithubIcon from "@/components/icons/GithubIcon";
-import SassIcon from "@/components/icons/SassIcon";
-import Leaflet from "@/components/icons/Leaflet";
-import VideoPlayer from "@/components/video/VideoPlayer";
-import Paypal from "@/components/icons/Paypal";
-import NextAuthIcon from "@/components/icons/NextAuthIcon";
-import MySqlIcon from "@/components/icons/MySqlIcon";
+'use client';
+import Header from '@/components/Header';
+import Image from 'next/image';
+import Mail from '@/components/icons/Mail';
+import Linkedin from '@/components/icons/Linkedin';
+import Maletin from '@/components/icons/Maletin';
+import Code from '@/components/icons/Code';
+import ReactIcon from '@/components/icons/ReactIcon';
+import CssIcon from '@/components/icons/CssIcon';
+import NextJsIcon from '@/components/icons/NextJsIcon';
+import TailwindIcon from '@/components/icons/TailwindIcon';
+import PrismicIcon from '@/components/icons/PrismicIcon';
+import FigmaIcon from '@/components/icons/FigmaIcon';
+import NetlifyIcon from '@/components/icons/NetlifyIcon';
+import DjangoIcon from '@/components/icons/DjangoIcon';
+import Preview from '@/components/icons/Preview';
+import Redux from '@/components/icons/Redux';
+import HtmlIcon from '@/components/icons/HtmlIcon';
+import ProfileCheck from '@/components/icons/ProfileCheck';
+import TwitterCard from '/public/images/twitterCard.png';
+import TicTacToe from '/public/images/TicTacToe.png';
+import MouseFollower from '/public/images/MouseFollower.png';
+import PruebaTecnica from '/public/images/PruebaTecnica.png';
+import BuscadorPeliculas from '/public/images/BuscadorPeliculas.png';
+import ShoppingCart from '/public/images/ShoppingCart.png';
+import CloneGoogleTranslate from '/public/images/CloneGoogleTranslate.png';
+import CrudRedux from '/public/images/CrudRedux.png';
+import PruebaTecnicaEmpresa from '/public/images/PruebaTecnicaEmpresa.png';
+import ImcetronPage from '/public/images/ImcetronPage.png';
+import GifSearch from '/public/images/GifSearch.png';
+import BeeFrontend from '/public/images/BeeFrontend.png';
+import BatatabitResponsive from '/public/images/BatatabitResponsive.png';
+import CrudDjango from '/public/images/nextjs-djangorest.png';
+import PasarelaStripe from '/public/images/PasarelaStripe.png';
+import ExamSimulator from '/public/images/ExamSimulator.png';
+import EditCasePhone from '/public/images/EditCasePhone.png';
+import AdrauniPage from '/public/images/AdrauniPage.png';
+import JsQuizzGame from '/public/images/JsQuizzGame.png';
+import RecipesPeruvians from '/public/images/RecipesPeruvians.png';
+import ZustandIcon from '/public/images/ZustandIcono.png';
+import PruebaFull from '/public/images/PruebaFull.png';
+import RandomPhrases from '/public/images/RandomPhrases.png';
+import EditorMarkdown from '/public/images/EditorMarkdown.png';
+import DrumMachine from '/public/images/DrumMachine.png';
+import CalculadoraJs from '/public/images/CalculadoraJs.png';
+import Clock25 from '/public/images/Clock25.png';
+import RealState from '/public/images/RealState.png';
+import DamasGame from '/public/images/DamasGame.png';
+import TestDeveloper from '/public/images/TestDeveloper.png';
+import PruebaReactDeveloper from '/public/images/PruebaReactDeveloper.png';
+import DashboardCompany from '/public/images/DashboardCompany.png';
+import StripeIcon from '@/components/icons/StripeIcon';
+import TypeScript from '@/components/icons/TypeScript';
+import LogoMaterialUi from '@/components/icons/LogoMaterialUi';
+import NodeIcon from '@/components/icons/NodeIcon';
+import GithubIcon from '@/components/icons/GithubIcon';
+import SassIcon from '@/components/icons/SassIcon';
+import Leaflet from '@/components/icons/Leaflet';
+import VideoPlayer from '@/components/video/VideoPlayer';
+import Paypal from '@/components/icons/Paypal';
+import NextAuthIcon from '@/components/icons/NextAuthIcon';
+import MySqlIcon from '@/components/icons/MySqlIcon';
+import Shadcn from '@/components/icons/Shadcn';
+import ClerkIcon from '/public/images/ClerkIcon.png';
 
 export default function Home() {
   return (
@@ -96,7 +99,7 @@ export default function Home() {
                 Hola, soy César Colorado
               </h1>
               <p className="mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300">
-                3 años de experiencia.{" "}
+                3 años de experiencia.{' '}
                 <strong>Desarrollador Front Developer en React JS.</strong> de
                 Lima, Perú. Dedicado al desarrollo de aplicaciones web.
               </p>
@@ -156,7 +159,7 @@ export default function Home() {
                 &bull; Urbalima: Desarrollo de la página web
                 <br /> https://urbalima.pe/ <br /> &bull; Revoshop: Dar Soporte
                 Web | (Home, Servicios)
-                <br /> &bull; Euroshop: Dar Soporte Web | (Home, Blog) <br />{" "}
+                <br /> &bull; Euroshop: Dar Soporte Web | (Home, Blog) <br />{' '}
                 &bull; Jetour: Dar Soporte Web <br /> &bull; Mantra: Desarrollar
                 automatizaciones con n8n.io e integraciones con CRM&apos;s como:
                 HubSpot, Zoho CRM, Zapier, Calendly.
@@ -233,7 +236,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"http://react-01-cc.surge.sh/"}
+                        href={'http://react-01-cc.surge.sh/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -281,7 +284,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"http://react-02-cc.surge.sh/"}
+                        href={'http://react-02-cc.surge.sh/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -330,7 +333,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"http://react-03-cc.surge.sh/"}
+                        href={'http://react-03-cc.surge.sh/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -380,7 +383,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"http://react-04-cc.surge.sh/"}
+                        href={'http://react-04-cc.surge.sh/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -430,7 +433,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"http://react-05-cc.surge.sh/"}
+                        href={'http://react-05-cc.surge.sh/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -479,7 +482,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"http://react-06-cc.surge.sh/"}
+                        href={'http://react-06-cc.surge.sh/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -528,7 +531,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"http://react-08-cc.surge.sh/"}
+                        href={'http://react-08-cc.surge.sh/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -581,7 +584,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"http://react-09-cc.surge.sh/"}
+                        href={'http://react-09-cc.surge.sh/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -629,7 +632,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"http://react-10-cc.surge.sh/"}
+                        href={'http://react-10-cc.surge.sh/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -691,7 +694,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"https://www.imcetron.com.pe/"}
+                        href={'https://www.imcetron.com.pe/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -742,7 +745,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"https://gif-ccesar-demo.netlify.app/"}
+                        href={'https://gif-ccesar-demo.netlify.app/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -790,7 +793,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"https://cesarscc.github.io/bee_frontend/"}
+                        href={'https://cesarscc.github.io/bee_frontend/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -837,7 +840,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"https://cesarscc.github.io/Mobile-Proyect/"}
+                        href={'https://cesarscc.github.io/Mobile-Proyect/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -896,7 +899,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"https://nextjs-djangorest.netlify.app/"}
+                        href={'https://nextjs-djangorest.netlify.app/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -955,7 +958,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"https://pasarela-pagos-stripe.netlify.app/"}
+                        href={'https://pasarela-pagos-stripe.netlify.app/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -1015,7 +1018,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"https://exam-simulator.netlify.app/"}
+                        href={'https://exam-simulator.netlify.app/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -1075,7 +1078,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"https://edit-case-phone.netlify.app/"}
+                        href={'https://edit-case-phone.netlify.app/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -1141,7 +1144,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"https://adrauni.pet/"}
+                        href={'https://adrauni.pet/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -1216,7 +1219,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"https://cesarscc-js-quizz-game.netlify.app/"}
+                        href={'https://cesarscc-js-quizz-game.netlify.app/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -1286,7 +1289,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"https://cesarscc-recipes-peruvians.netlify.app/"}
+                        href={'https://cesarscc-recipes-peruvians.netlify.app/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -1349,7 +1352,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"https://github.com/Cesarscc/prueba-tecnica-full"}
+                        href={'https://github.com/Cesarscc/prueba-tecnica-full'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -1408,7 +1411,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"https://cesarscc-random-phrases.netlify.app/"}
+                        href={'https://cesarscc-random-phrases.netlify.app/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -1467,7 +1470,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"https://cesarscc-editor-markdown.netlify.app/"}
+                        href={'https://cesarscc-editor-markdown.netlify.app/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -1530,7 +1533,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"https://cesarscc-drum-machine.netlify.app/"}
+                        href={'https://cesarscc-drum-machine.netlify.app/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -1588,7 +1591,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"https://cesarscc-calculator.netlify.app/"}
+                        href={'https://cesarscc-calculator.netlify.app/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -1644,7 +1647,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"https://cesarscc-clock-25-5.netlify.app/"}
+                        href={'https://cesarscc-clock-25-5.netlify.app/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -1709,7 +1712,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"https://cesarscc-real-state.netlify.app/"}
+                        href={'https://cesarscc-real-state.netlify.app/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -1863,7 +1866,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"https://game-damas.netlify.app/"}
+                        href={'https://game-damas.netlify.app/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -1919,7 +1922,7 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"https://technical-test-web.netlify.app/"}
+                        href={'https://technical-test-web.netlify.app/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -1985,7 +1988,87 @@ export default function Home() {
                     <footer className="flex items-end justify-start mt-4 gap-x-4">
                       <a
                         target="_blank"
-                        href={"https://prueba-react-developer.netlify.app/"}
+                        href={'https://prueba-react-developer.netlify.app/'}
+                        className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
+                      >
+                        <p>
+                          <Preview />
+                        </p>
+                        <p className="text-gray-400">Preview</p>
+                      </a>
+                    </footer>
+                  </div>
+                </div>
+              </article>
+              <article className="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+                <div className="w-full md:w-1/2">
+                  <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+                    <Image
+                      alt="Dashboard Companys"
+                      className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
+                      loading="lazy"
+                      width={900}
+                      height={800}
+                      src={DashboardCompany}
+                    />
+                  </div>
+                </div>
+                <div className="w-full md:w-1/2 md:max-w-lg">
+                  <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-100">
+                    Dashboard Companys
+                  </h3>
+                  <div className="flex flex-wrap mt-2">
+                    <ul className="grid grid-cols-2 mb-2 gap-x-2">
+                      <li className="flex items-center">
+                        <NextJsIcon />
+                        <strong className="text-white ml-1 text-sm">
+                          Next Js
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <TypeScript />
+                        <strong className="text-white text-sm">
+                          TypeScript
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <TailwindIcon />
+                        <strong className="text-white text-sm">
+                          TailwindCss
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <Shadcn />
+                        <strong className="text-white text-sm ml-1">
+                          Shadcn UI
+                        </strong>
+                      </li>
+                      <li className="flex items-center">
+                        <div>
+                          <Image
+                            className="rounded-full"
+                            alt="Clerk Icon"
+                            loading="lazy"
+                            width={35}
+                            height={35}
+                            src={ClerkIcon}
+                          />
+                        </div>
+                        <strong className="text-white text-sm ml-1">
+                          Clerk
+                        </strong>
+                      </li>
+                    </ul>
+
+                    <div className="mt-2 text-gray-700 dark:text-gray-400">
+                      Dashboard Web para el control de las compañías, tener
+                      métricas y ver gráficas, todo con registro usando Clerk,
+                      Shadcn, Prisma ORM
+                    </div>
+                    <footer className="flex items-end justify-start mt-4 gap-x-4">
+                      <a
+                        target="_blank"
+                        href={'https://dashboard-company.netlify.app/'}
                         className="rounded-xl transition border border-gray-600 bg-gray-800 w-28 h-8 text-center flex justify-center items-center gap-2 hover:border-0 hover:bg-gray-800 hover:border-gray-900 hover:text-white"
                       >
                         <p>
@@ -2008,7 +2091,7 @@ export default function Home() {
               <div className="[&>p]:mb-4 [&>p>strong]:text-yellow-500 dark:[&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono text-pretty order-2 md:order-1">
                 <p>
                   Me llamo César Colorado. Empecé en la programación con la
-                  curiosidad en Scratch, tenía 18 años. Actualmente estoy{" "}
+                  curiosidad en Scratch, tenía 18 años. Actualmente estoy{' '}
                   <strong>
                     siendo trabajador independiente y haciendo proyectos propios
                   </strong>
@@ -2016,7 +2099,7 @@ export default function Home() {
                 </p>
 
                 <p>
-                  Mi formación profesional es en{" "}
+                  Mi formación profesional es en{' '}
                   <strong>
                     Ciencia de la Computación en la Universidad Nacional de
                     Ingeniería (UNI), Perú
@@ -2025,11 +2108,11 @@ export default function Home() {
                   necesitaba para poder realizar mis primeros proyectos.
                 </p>
                 <p>
-                  Como desarrollador,{" "}
+                  Como desarrollador,{' '}
                   <strong>
                     manejo React Js y Next Js para el Frontend, también CSS o
                     TailwindCss,CMS como Prismic, Figma, afinidad al diseño
-                    UI/UX{" "}
+                    UI/UX{' '}
                   </strong>
                   cuento con experiencia en consumo de Api&apos;s, experiencia
                   en backend, y habilidades en JavaScript, TypeScript, Python,
@@ -2044,9 +2127,9 @@ export default function Home() {
                 width="200"
                 height="200"
                 src={
-                  "https://pbs.twimg.com/profile_images/1730607351781117952/N97efvUT_400x400.jpg"
+                  'https://pbs.twimg.com/profile_images/1730607351781117952/N97efvUT_400x400.jpg'
                 }
-                alt={"Profile"}
+                alt={'Profile'}
                 className=" order-1 object-cover w-64 h-full p-1 md:order-2 rotate-3 lg:p-2 lg:w-64 aspect-square rounded-2xl bg-black/20 dark:bg-yellow-500/5 ring-1 ring-black/70 dark:ring-white/20 "
                 style="object-position: 50% 50%"
               />
