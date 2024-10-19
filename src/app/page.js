@@ -99,7 +99,7 @@ export default function Home() {
                 Hola, soy César Colorado
               </h1>
               <p className="mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300">
-                3 años de experiencia.{' '}
+                Más de 3 años de experiencia.{' '}
                 <strong>Desarrollador Front Developer en React JS.</strong> de
                 Lima, Perú. Dedicado al desarrollo de aplicaciones web.
               </p>
@@ -139,6 +139,45 @@ export default function Home() {
               </p>
             </div>
             <div className="mt-10 relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
+              <div className="relative pb-12 md:col-span-2">
+                <div className="sticky top-0">
+                  <span className="text-yellow-400 -left-[42px] absolute rounded-full text-5xl">
+                    &bull;
+                  </span>
+                  <h3 className="text-xl font-bold text-yellow-400">
+                    Desarrollador front-end , back-end y automatizaciones
+                  </h3>
+                  <h4 className="font-semibold text-xl text-gray-600 dark:text-white">
+                    Firstmed Pharma · Jornada completa
+                  </h4>
+                  <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">
+                    jul. 2024 - actualidad · 4 meses
+                  </time>
+                </div>
+              </div>
+              <div className="relative flex flex-col gap-2 pb-4 text-gray-600 dark:text-gray-300 md:col-span-3">
+                &bull; Implementé aplicativos web estáticos con Next Js y
+                TailwindCss para ser subidos posteriormente a un Bucket de S3
+                AWS. <br />
+                &bull; Implementé Microservicios en Express Js en funciones
+                Lambda de AWS para ser consumidos, microservicios de Api Google
+                Sheets, Pixel de Meta y Api de Conversiones de Meta, poniendo
+                seguridad con los CORS.
+                <br /> &bull;Configuré el dominio y subdominios en GoDaddy y
+                hosting en AWS para ser desplegados. <br /> &bull; Implementé
+                configuraciones de Google Analytics para el monitoreo de la
+                página web. <br /> &bull; Implementé automatizaciones de
+                Facebook Leads hacía el CRM Bitrix mediante la herramienta
+                LeadsBridge.
+                <br /> &bull; Implementé una base de datos MySql en Digital
+                Ocean para el registro y monitoreo de los aplicativos web.
+                <br />
+                &bull; Implementé microservicios de registros y escritura en
+                Express Js para ser subidos con App Web en Digital Ocean,
+                dándole seguridad <br /> &bull;Implementé un Dashboard donde se
+                podrán ver los registros de la base de datos tanto por día o
+                mensual, y también poder descargarlos en formato Excel.
+              </div>
               <div className="relative pb-12 md:col-span-2">
                 <div className="sticky top-0">
                   <span className="text-yellow-400 -left-[42px] absolute rounded-full text-5xl">
@@ -2091,9 +2130,9 @@ export default function Home() {
               <div className="[&>p]:mb-4 [&>p>strong]:text-yellow-500 dark:[&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono text-pretty order-2 md:order-1">
                 <p>
                   Me llamo César Colorado. Empecé en la programación con la
-                  curiosidad en Scratch, tenía 18 años. Actualmente estoy{' '}
+                  curiosidad en Scratch, tenía 18 años. Actualmente me encuentro{' '}
                   <strong>
-                    siendo trabajador independiente y haciendo proyectos propios
+                    trabajando profesionalmente y haciendo proyectos propios
                   </strong>
                   .
                 </p>
