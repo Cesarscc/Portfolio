@@ -151,7 +151,7 @@ export default function Home() {
                     Firstmed Pharma · Jornada completa
                   </h4>
                   <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">
-                    jul. 2024 - actualidad · 4 meses
+                    jul. 2024 - ene. 2025 · 7 meses
                   </time>
                 </div>
               </div>
